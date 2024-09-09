@@ -1,0 +1,22 @@
+{
+  "name": "swe-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot for SWE Interviews",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Saurav Prateek",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.2.32",
+    "@langchain/core": "^0.2.31",
+    "@xenova/transformers": "^2.17.2",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.18",
+    "typescript": "^5.5.4"
+  }
+}
